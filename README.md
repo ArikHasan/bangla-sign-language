@@ -34,11 +34,17 @@ Currently supports 10 Bangla alphabets: অ, আ, ই, ঈ, উ, ক, খ, গ, 
 ## Project Structure
 bangla-sign-language/
 ├── data/ # Collected CSV files (hand landmark data)
+
 ├── models/ # Trained model file
+
 ├── scripts/
+
 │ ├── collect_data.py # Data collection script
+
 │ ├── train_model.py # Model training script
+
 │ └── predict_live.py # Real-time prediction script
+
 └── README.md
 
 
