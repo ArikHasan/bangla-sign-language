@@ -1,5 +1,5 @@
 
-The signs used in this project follow standard BdSL alphabet charts. The dataset was self-recorded as part of an portfolio project. Detection is based on static hand pose (single frame), not continuous gesture sequences.
+[ The signs used in this project follow standard BdSL alphabet charts. The dataset was self-recorded as part of an portfolio project. Detection is based on static hand pose (single frame), not continuous gesture sequences. ]
 
 
 # Bangla Sign Language Recognition (BdSL)
@@ -32,7 +32,8 @@ Currently supports 10 Bangla alphabets: অ, আ, ই, ঈ, উ, ক, খ, গ, 
 
 
 ## Project Structure
-bangla-sign-language/
+bangla-sign-language-
+
 ├── data/ # Collected CSV files (hand landmark data)
 
 ├── models/ # Trained model file
@@ -79,12 +80,18 @@ bangla-sign-language/
 - Pillow (বাংলা টেক্সট রেন্ডারিং এর জন্য)
 
 ## Project Structure
-bangla-sign-language/
+bangla-sign-language-
+
 ├── data/ # Collected CSV files (hand landmark data)
+
 ├── models/ # Trained model file
+
 ├── scripts/
+
 │ ├── collect_data.py # Data collection script
+
 │ ├── train_model.py # Model training script
+
 │ └── predict_live.py # Real-time prediction script
 └── README.md
 
@@ -101,4 +108,5 @@ bangla-sign-language/
 
 Mahmudul Hasan (Arik)
 Final-year CSE Student, Daffodil International University
+7-23-26
 
